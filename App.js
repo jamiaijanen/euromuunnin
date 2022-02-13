@@ -35,6 +35,8 @@ export default function App() {
         <Picker.Item label="JPY" value="JPY" />
         <Picker.Item label="AUD" value="AUD" />
         <Picker.Item label="CHF" value="CHF" />
+        <Picker.Item label="NZD" value="NZD" />
+        <Picker.Item label="CAD" value="CAD" />
       </Picker>
       <Button title="Convert" onPress={laske} />
       <StatusBar style="auto" />
